@@ -1,0 +1,47 @@
+Listes et structures de données : un bref aperçu
+Listes :
+
+Définition : une liste est une collection d'éléments qui peuvent être de différents types, tels que des entiers, des chaînes ou des objets. Elle conserve un ordre spécifique pour ses éléments.
+Types :
+Tableau (liste statique) : une collection d'éléments stockés dans des emplacements de mémoire contigus. Les tableaux ont une taille fixe et fournissent un accès en temps constant aux éléments par index.
+Liste chaînée (liste dynamique) : une collection d'éléments appelés nœuds, où chaque nœud contient une valeur et une référence (ou un lien) au nœud suivant. Les listes chaînées peuvent croître ou diminuer de manière dynamique, et elles fournissent des insertions et des suppressions efficaces.
+Structures de données :
+
+Définition : les structures de données sont des moyens d'organiser et de stocker des données pour permettre un accès et une modification efficaces. Elles sont fondamentales pour l'informatique et le développement de logiciels.
+Structures de données courantes :
+
+Tableau :
+
+Stocke les éléments dans des emplacements de mémoire contigus.
+Fournit un accès en temps constant aux éléments par index.
+Taille fixe.
+Liste chaînée :
+
+Se compose de nœuds où chaque nœud pointe vers le nœud suivant (et éventuellement précédent).
+Taille dynamique ; permet des insertions et des suppressions efficaces.
+Inclut des variantes telles que les listes chaînées simples et les listes chaînées doubles.
+Pile :
+
+Suivant le principe du dernier entré, premier sorti (LIFO).
+Opérations : push (ajouter un élément), pop (supprimer un élément), peek (afficher l'élément supérieur).
+File d'attente :
+
+Suivant le principe du premier entré, premier sorti (FIFO).
+Opérations : enqueue (ajouter un élément), dequeue (supprimer un élément), peek (afficher l'élément avant).
+Table de hachage :
+
+Stocke les paires clé-valeur et fournit un accès rapide aux valeurs en fonction des clés.
+Utilise une fonction de hachage pour calculer un index dans un tableau de buckets ou d'emplacements.
+Arbre :
+
+Une structure hiérarchique avec des nœuds connectés par des arêtes.
+Les exemples incluent les arbres binaires, les arbres de recherche binaire (BST) et les arbres AVL.
+Utilisé pour représenter des données hiérarchiques et permettre une recherche, une insertion et une suppression rapides.
+Graphique :
+
+Une collection de nœuds (sommets) reliés par des arêtes.
+Utilisé pour représenter des réseaux, tels que des réseaux sociaux ou des réseaux informatiques.
+Peut être dirigé ou non, pondéré ou non pondéré.
+Importance :
+
+Des structures de données efficaces sont essentielles pour optimiser les performances des algorithmes, améliorer les temps d'accès aux données et gérer efficacement les ressources dans le développement de logiciels.
